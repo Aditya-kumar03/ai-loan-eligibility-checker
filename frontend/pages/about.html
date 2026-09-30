@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & How It Works | AI Loan Eligibility Checker</title>
+  <meta name="theme-color" content="#090D16">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="/" class="nav-brand">
+        <div class="brand-icon">₹</div>
+        <div class="brand-text">
+          <span class="brand-title">AI Loan Eligibility Checker</span>
+          <span class="brand-badge">BFSI Decision Platform</span>
+        </div>
+      </a>
+      <a href="/" class="btn-outline">← Back to App</a>
+    </div>
+  </header>
+
+  <main style="padding: 3rem 0;">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header">
+        <span class="section-tag">Methodology</span>
+        <h1 class="section-title">How It Works &amp; Underwriting Logic</h1>
+        <p class="section-subtitle">
+          A deep dive into the financial formulas and rules governing loan underwriting in India.
+        </p>
+      </div>
+
+      <div class="form-card">
+        <h2 style="font-size: 1.25rem; color: var(--text-primary); margin-bottom: 1rem;">1. Equated Monthly Installment (EMI)</h2>
+        <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem;">
+          In Indian retail banking, loans are structured using a reducing-balance amortization schedule. Interest is calculated on the remaining principal balance rather than the initial borrowed amount:
+        </p>
+        <pre style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-sm); color: var(--accent-cyan); font-family: var(--font-mono); margin-bottom: 1.5rem;">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ - 1)</pre>
+
+        <h2 style="font-size: 1.25rem; color: var(--text-primary); margin-bottom: 1rem;">2. Debt-to-Income &amp; FOIR</h2>
+        <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
+          The Fixed Obligation to Income Ratio (FOIR) measures the portion of net monthly income consumed by loan repayments and fixed liabilities. Under RBI lending norms, banks generally enforce a 45%–55% cap on post-loan FOIR.
+        </p>
+
+        <h2 style="font-size: 1.25rem; color: var(--text-primary); margin-bottom: 1rem;">3. Estimated Financial Eligibility Score (1000 Pts)</h2>
+        <p style="font-size: 0.9375rem; color: var(--text-secondary); line-height: 1.6;">
+          Our 1000-point transparent scoring engine evaluates Credit Bureau History (350 pts), Post-Loan DTI (250 pts), Income Stability (150 pts), Revolving Utilization (150 pts), and Cash Surplus (100 pts).
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
