@@ -2,6 +2,9 @@
 
 > **"Understand Your Loan Eligibility Before You Apply."**
 
+🔗 **Live Deployment**: [https://aditya-kumar03.github.io/ai-loan-eligibility-checker/](https://aditya-kumar03.github.io/ai-loan-eligibility-checker/)  
+📦 **GitHub Repository**: [https://github.com/Aditya-kumar03/ai-loan-eligibility-checker](https://github.com/Aditya-kumar03/ai-loan-eligibility-checker)
+
 A production-quality, BFSI-focused financial decision-support platform designed for Indian borrowers. It pairs deterministic banking mathematics (reducing-balance EMI, DTI, FOIR, revolving credit utilization) with Anthropic Claude AI to evaluate loan affordability, explain underwriting criteria, and provide practical debt management guidance.
 
 ---
